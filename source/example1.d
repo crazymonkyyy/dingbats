@@ -6,5 +6,5 @@ todo insert rambling
 
 import std;
 void main(){
-	"hello world".writeln;
+	"helo world".writeln;
 }
