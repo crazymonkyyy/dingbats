@@ -1,0 +1,12 @@
+/*
+
+
+
+
+output:
+*/
+
+import std;
+void main(){
+	.writeln;
+}

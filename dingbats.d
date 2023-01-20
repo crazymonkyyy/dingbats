@@ -1,6 +1,6 @@
 #!dmd -run 
 import std;
-enum filecount=5;
+enum filecount=7;
 void main(){
 	"running dingbats".writeln;
 	foreach(i;1..filecount+1){
