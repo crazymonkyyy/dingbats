@@ -5,7 +5,7 @@ but it takes a genius to know that its simpliticly is genius"
 -genius who made csv
 
 output:
-print out names by line
+print out the names by line
 */
 enum csv="files/names.csv";
 
