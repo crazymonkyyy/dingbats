@@ -24,7 +24,7 @@ void main(){
 		readln;
 	}
 	foreach(i;filecounts[1]+1..filecounts[2]+1){//unittest era
-		retry:
+		retry2:
 		auto shell=executeShell("dmd -run source/example"~i.to!string);
 		int e=shell.status;
 		if(e==0){
@@ -34,7 +34,7 @@ void main(){
 			shell.output.writeln;
 			"press enter to retry".writeln;
 			readln;
-			goto retry;
+			goto retry2;
 		}
 	}
 }
