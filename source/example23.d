@@ -3,7 +3,7 @@ Templates as generics
 
 Templates are a whole mess, and will be covered slowly, but you have to start somewhere
 
-`T` will be used as an anonous type everywhere(followed by S,U...) 
+`T` will be used as an anonous type everywhere(followed by S...) 
 
 The following are generic functions, where the function arguments will be infered
 

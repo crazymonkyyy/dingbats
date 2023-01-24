@@ -7,8 +7,6 @@ output:
 print "hello world"
 */
 
-import std;
-
 void main(){
 	"hello world".writeln;
 }

@@ -14,7 +14,7 @@ import std;
 enum booklist="files/books";
 
 void main(){
-	foreach(book; File(booklist).byLineCopy){
+	foreach(book; ???){
 		book.writeln;
 	}
 }

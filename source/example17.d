@@ -15,6 +15,6 @@ void main(){
 	int[] array2=[1];
 	int[] array3=[10,11,12,13,14];
 	foreach(array;[array1,array2,array3]){
-		array[0..min(3,$)].writeln;
+		array[0..3].writeln;
 	}
 }

@@ -19,11 +19,11 @@ void main(){
 	foo~=3;
 	foo.writeln;
 	
-	bool[] bar;
+	??? bar;
 	bar~=true;
-	bar~=false;
+	???;
 	bar.writeln;
-	bar[1]=true;
-	bar~=true;
+	bar[1]=???;
+	bar~=???;
 	bar.writeln;
 }

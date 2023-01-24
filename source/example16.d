@@ -18,11 +18,11 @@ void main(){
 	foreach(i;0..5){
 		"element ".writeln(i,": ");
 		min(array1[i],array2[i]).writeln(" is min");
-		max(array1[i],array2[i]).writeln(" is max");
+		???(array1[i],array2[i]).writeln(" is max");
 	}
 	"---".writeln;
 	array1.minElement.writeln(" is min of array1");
-	array1.maxElement.writeln(" is max of array1");
-	array2.minElement.writeln(" is min of array2");
+	array1.??????????.writeln(" is max of array1");
+	??????.minElement.writeln(" is min of array2");
 	array2.maxElement.writeln(" is max of array2");
 }

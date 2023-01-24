@@ -13,7 +13,7 @@ define a 3x5 int array and set the 2,4 value to 1
 
 import std;
 void main(){
-	int[5][3] foo;
+	int[3][5] foo;
 	foo[2][4]=1;
 	foo.writeln;
 }

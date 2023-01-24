@@ -12,9 +12,9 @@ import std;
 void main(){
 	int[] foo;
 	foo~=1;
-	foo~=foo[$-1];
+	foo~=foo[$];
 	foreach(i;0..8+1){
-		foo~=foo[$-2]+foo[$-1];
+		foo~=foo[???]+foo[???];
 	}
 	foo.writeln;
 }

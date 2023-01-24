@@ -9,7 +9,7 @@ reimpliment cat
 
 import std;
 void main(string[] s){
-	foreach(file;s[1..$]){
+	foreach(file;???){
 		if(file=="-v"){"considered harmful".writeln; return;}
 		foreach(line;File(file).byLineCopy){
 			line.writeln;
