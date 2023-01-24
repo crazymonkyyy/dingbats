@@ -25,7 +25,7 @@ void main(){
 	}
 	foreach(i;filecounts[1]+1..filecounts[2]+1){//unittest era
 		retry2:
-		auto shell=executeShell("dmd -run source/example"~i.to!string);
+		auto shell=executeShell("dmd -main -run source/example"~i.to!string);
 		int e=shell.status;
 		if(e==0){
 			writeln("test ",i,": success");
