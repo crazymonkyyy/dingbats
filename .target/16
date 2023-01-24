@@ -1,0 +1,20 @@
+element 0: 
+1 is min
+3 is max
+element 1: 
+-5 is min
+2 is max
+element 2: 
+3 is min
+7 is max
+element 3: 
+4 is min
+10 is max
+element 4: 
+0 is min
+5 is max
+---
+1 is min of array1
+5 is max of array1
+-5 is min of array2
+10 is max of array2
