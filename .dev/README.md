@@ -1,15 +1,12 @@
 ### Sercet dev zone
 
-put devs things here
+put dev things here
 
-### todo
+### todo for beta
 
 * find contibutors
 * find contribtors with writing experience
-* plan out a circuliam
-    * make list of topics
-    * follow thru on that
-* make the biuld script more complex
-    * friendly setup messages
-    * make some unix-y testing apperatous
-* make lots of example programs
+* debate about/finalize cirriculum
+* swap dev tools to handle "chapters"/"folders"
+* improve biuld tool in many ways
+* add all missing examples to this list
