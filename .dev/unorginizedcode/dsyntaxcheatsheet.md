@@ -2,7 +2,7 @@
 ```d
 import std;
 void main(string[] s){   // main that takes command line agruments s[1] will be the first arg
-	string hello="hello ";// basic var initualazation
+	string hello="hello ";// basic var initialisation
 	hello~=s[1];          // same as hello = hello ~ s[1]
 	hello.writeln;        // same as writeln(hello)
 }
@@ -40,7 +40,7 @@ alias T=int //type "assignment"
 
 ```d
 auto foo(){//auto infers the type
-	struct bar{int i;}//local struct, "voldemore type"
+	struct bar{int i;}//local struct, "voldemort type"
 	return bar(1);//defualt type constuction
 }
 void main(){
