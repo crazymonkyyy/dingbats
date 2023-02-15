@@ -43,7 +43,7 @@ void writedata(myarraytype i){
 
 
 import std;
-void main(){
+void main(){// ....todo change to a unittest
 	myarraytype foo=gendata;
 	myarraytype bar=gendata;
 	bar.writedata;

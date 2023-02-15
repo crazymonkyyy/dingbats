@@ -32,7 +32,7 @@ templates for contaniners
 ranges as 3 functions
 templates for ranges
 auto + typeof
-types as second class varibles
+types/functions as second class varibles
 
 -
 thinking with functional programming
