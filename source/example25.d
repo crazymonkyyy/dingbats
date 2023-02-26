@@ -15,12 +15,12 @@ unittest{
 	foo.me=10;
 }
 
-struct myarray(T,int n){
+struct myarray(???){
 	T[n] me;
 }
 unittest{
 	myarray!(int,10) foo;
 	foo.me[9]=1;
-	myarray!(float,6) bar;
+	myarray!(float,5) bar;
 	bar.me[5]=1;
 }

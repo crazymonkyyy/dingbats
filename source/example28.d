@@ -10,7 +10,7 @@ import std;
 
 auto foo(){
 	struct mystruct{int i;}
-	return mystruct();
+	return mystruct;
 }
 unittest{
 	auto bar=foo;
@@ -18,5 +18,5 @@ unittest{
 }
 
 unittest{
-	assert(1,"idk how to test this");
+	assert(0,"idk how to test this");
 }

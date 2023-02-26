@@ -30,7 +30,7 @@ unittest{
 		e=i;
 	}
 	array.writeln;
-	foreach(e;counter(0,10)){//by defining a range you can pass it to foreach
+	foreach(e;???){//by defining a range you can pass it to foreach
 		assert(array[e]==e);
 	}
 }

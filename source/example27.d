@@ -16,7 +16,7 @@ struct counter{
 	}
 }
 
-auto getcounter(R)(R r){
+??? getcounter ??? {
 	return counter(0,cast(int)r.length);
 	// standard termology is for an anonous range its type is R and its varible is r
 }
