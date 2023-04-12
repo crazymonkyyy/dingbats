@@ -1,14 +1,16 @@
 /*
-Welcome to Dingbats, please fix the bugs to learn dlang.
-if you havnt already run ./dingbats in the main folder to test your solutions.
+Welcome to the first exersice of Dingbats!
+If you haven't already done so, run "rdmd dingbats" in the main folder.
 
-This is a hello world with a typo
+Description:
+	This is a hello-world program with a typo.
 
-output:
-print "hello world" with an end line
+Expected Output:
+	hello world
 */
 
 import std;
-void main(){
-	"helo world".writeln;
+
+void main() {
+	writeln("helo world");
 }

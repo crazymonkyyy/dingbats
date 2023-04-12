@@ -1,19 +1,21 @@
 ## Dingbats (Alpha 2)
 
-Collection of small example programs to fix, to teach you D
+A collection of simple and short exercises to help you learn D.
 
 ## Getting Started
 
-Please install dmd
+First, you should install the DMD compiler before you start solving the exercises.
+You can get it by visiting https://dlang.org.
+After you have successfully installed DMD, run the following commands:
 
 ```
-git clone https://github.com/crazymonkyyy/dingbats.git #clone the repo
-cd dingbats #enter the repo
-chmod +x dingbats.d #make the 'script' executable
-./dingbats.d #start the guided teaching tool
-(or dmd -run dingbats)
+git clone https://github.com/crazymonkyyy/dingbats.git
+cd dingbats
+rdmd dingbats.d
 ```
-(start editing source/example1.d)
+
+Now you are ready to start solving the exercises.
+You can begin by editing the example1.d file inside the examples folder.
 
 ## Status
 
